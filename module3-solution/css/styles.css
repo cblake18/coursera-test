@@ -1,0 +1,157 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #ffffff;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+  .container {
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .container-fluid {
+    border:1px black;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  section {
+    border: 1px solid black;
+    background-color: rgb(186, 186, 186);
+    width: 100%;
+    height: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    position:relative;
+    overflow:auto;
+  }
+  
+  p{
+    padding:10px;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #858585;
+    border-radius: 0;
+    border: 0;
+  }
+
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 { /* name */
+    font-family: 'Oxygen', serif;
+    color: #000000;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30px;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+  #chicken {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #d15a7e;
+    color:white;
+}
+#chicken-div {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+#beef {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #e2e608;
+}
+#beef-div {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#sushi {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #238ddf;
+    color:white;
+}
+#sushi-div {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#collapsable-nav {
+  border:1px solid black;
+  margin-left:0;
+  margin-right: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+  
+
+  
+
+.item {
+    color: white;
+    font-size: 1.2em;
+  }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+.visible-xs{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.navbar-header{
+  margin-bottom: 20px;
+}
